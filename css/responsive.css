@@ -1,12 +1,19 @@
 @media(min-width: 320px) and (max-width: 575.98px){
    
     /* for login */
+    form {
+        background: none;
+    }    
+    form h2 {
+        font-size: 17px;
+      }  
     form h5 {
         padding-left: 30px;
     }
     form .btnn {
         display: flex;
         width: 150%;
+        align-items: center;
     }
     form .icon {
         border-radius: 8px;
@@ -19,6 +26,7 @@
     }
     form input {
         width: 285px;
+        font-size: 13px;
     }
     form .rem a {
         margin-left: 4px;
