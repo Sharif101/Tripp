@@ -5,7 +5,8 @@
         padding-left: 30px;
     }
     form .btnn {
-        display: ruby;
+        display: flex;
+        width: 150%;
     }
     form .icon {
         border-radius: 8px;
