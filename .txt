@@ -1,0 +1,42 @@
+background: #E8EBF3
+
+
+<div >
+                            <input class="checkbox " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault" style="color:#303952;user-select: none;">
+                                Remember me
+                            </label>
+</div>
+
+
+
+
+
+ <div class=" d-flex mt-2" style="justify-content:space-between"  >
+                        <div >
+                            <input class="checkbox " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault" style="color:#303952;user-select: none;">
+                                Remember me
+                            </label>
+                        </div>
+                        <div >
+                            
+                            <a ><span style="color:#20B96B;user-select: none;">Forget Password?</span></a>
+                        </div>
+                    </div>
+
+
+
+
+
+cssssssssssssss
+
+
+
+.checkbox{
+    outline: none;
+    border:2px solid #C3C3C3;
+    
+    
+
+}

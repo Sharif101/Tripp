@@ -1,0 +1,416 @@
+
+:root
+{
+    --bg: #E8EBF3;
+    --inpttype: #5c5c5c;
+    --btn: linear-gradient(to right,#119A7C, #23CB8B, #33D87C );
+    --pimary: #23CB8B;
+    --click: #119A7C;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: var(--bg);
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+ol,ul
+{
+    list-style: none;
+}
+
+
+/* from er bg */
+form{
+    background: none;
+}
+
+
+/* work for input email/pass */
+form input{
+    width: 355px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--inpttype);
+    font-weight: 400;
+    font-size: 12px;
+    /* display: block;
+    margin: 0 auto; */
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background: transparent;
+    /* border-radius: 10px; */
+    border: 0;
+    outline: 0;
+    /* box-shadow: inset 2px 2px 5px #e4e5eb, inset -5px -5px 10px #fff; */
+    border-bottom: 1px solid #797979;
+    
+}
+
+/* button with icon design */
+form .icon
+{
+    margin: 20px 0px;
+    margin-right: 20px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 8px;
+    padding: 2px 20px;
+    padding-bottom: 6px;
+    background: none;
+}
+
+/* button for button  */
+form .sign    
+{
+   background: var(--btn); 
+   padding: 3px 20px;
+   border: none;
+   border-radius: 5px;
+   padding-bottom: 5px;
+}
+
+
+
+/* ==============================
+   login from work
+   =============================*/
+
+nav img
+{
+    width: 70%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+nav::before
+{
+    width: 50%;
+    height: 5px;
+    content: '';
+    position: absolute;
+    background: var(--pimary);
+    bottom: 0;
+    left: 0;
+}
+nav::after
+{
+    width: 50%;
+    height: 5px;
+    content: '';
+    position: absolute;
+    background: #3B424C;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+#login .left
+{
+    width: 70%;
+}
+
+
+form h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #3B424C;
+    letter-spacing: 1px;
+    font-weight: 700;
+    /* padding: 10px 0; */
+    margin-top: 4%;
+}
+
+form h2
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #3B424C;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+form h5
+{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--click);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 75px;
+    position: relative;
+}
+
+form h5::after
+{
+    width: 10%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background: var(--pimary);
+    top: 47%;
+    left: 0;
+}
+
+form #or
+{
+    margin-bottom: 10px;
+}
+form .icon .google
+{
+    font-size: 8px;
+    background: #DB4437;
+    color: white;
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+form .icon .face
+{
+    font-size: 8px;
+    background: #355aa3;
+    color: white;
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+form .icon span
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 15px;
+    color: rgb(97, 97, 97);
+}
+
+
+input[type=checkbox] + label {
+    display: block;
+    cursor: pointer;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+    outline: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "";
+    border: 0.1em solid rgb(121, 121, 121);
+    border-radius: 0.1em;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.7em;
+    /* vertical-align: bottom; */
+    color: transparent;
+    transition: .2s;
+    outline: none;
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color: MediumSeaGreen;
+    border-color: MediumSeaGreen;
+  }
+
+form .rem 
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4b71;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+form .rem a
+{
+    color: #119A7C;
+    margin-left: 150px;
+}
+
+
+form .sign span
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+form .sign span i
+{
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+form .acc
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #494949;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 25px;
+}
+form .acc span a
+{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--click);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#login .img-travle img
+{
+    width: 90%;
+}
+
+
+
+/* ==========================
+   registration from design
+   ========================== */
+
+   /* form .sign-reg   
+   {
+       background: #119A7C ;  
+       background: -webkit-linear-gradient(to left,#119A7C, #23CB8B, #33D87C);  
+       background: linear-gradient(to right,#119A7C, #23CB8B, #33D87C );
+      padding: 3px 10px;
+      border: none;
+      border-radius: 5px;
+      padding-bottom: 5px;
+   }
+   form .sign-reg span i
+   {
+       color: #ffffff;
+       font-size: 12px;
+   } */
+
+ form #arrow
+ {
+     padding: 0;
+     padding: 3px 12px;
+     padding-bottom: 5px;
+ }
+ form #arrow i
+ {
+     margin: 0;
+ }
+
+ form #privacy
+ {
+     margin-top: 15px;
+ }
+form #privacy a
+{
+    margin: 0;
+}
+
+
+
+
+
+
+#login #left-reg2
+{
+    align-items: right;
+}
+#login form #rg2
+{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#login form h1 span
+{
+    color: var(--pimary);
+}
+
+.navbar_reg2 img
+{
+    width: 70%;
+    margin-bottom: 6%;
+    position: relative;
+}
+
+
+.navbar_reg2::before
+{
+    width: 50%;
+    height: 5px;
+    content: '';
+    position: absolute;
+    background: #3B424C;
+    top: 57px;
+    left: 0;
+}
+.navbar_reg2::after
+{
+    width: 50%;
+    height: 5px;
+    content: '';
+    position: absolute;
+    background: var(--pimary);
+    top: 57px;
+    right: 0;
+}
+
+
+.con{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--inpttype);
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+.con .date {
+    display: inline-block;
+    padding-left: 8px;
+    padding-bottom: 15px;
+}
+SELECT{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--inpttype);
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid;
+    padding-right: 58px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+input.date{
+  width:50px;
+  padding: 5px;
+}
+
+

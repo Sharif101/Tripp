@@ -1,0 +1,68 @@
+@media(min-width: 320px) and (max-width: 575.98px){
+   
+    /* for login */
+    form h5 {
+        padding-left: 30px;
+    }
+    form .btnn {
+        display: ruby;
+    }
+    form .icon {
+        border-radius: 8px;
+        padding: 2px 8px;
+        padding-bottom: 6px;
+        margin-right: 10px;
+    }
+    form .icon span {
+        padding-left: 8px;
+    }
+    form input {
+        width: 285px;
+    }
+    form .rem a {
+        margin-left: 4px;
+    }
+    #login .img-travle img {
+        display: none;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+    form h5 {
+        padding-left: 45px;
+    }
+    form .btnn {
+        display: ruby;
+    }
+    #login .img-travle img {
+        display: none;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991.98px){
+    #login .img-travle img {
+        display: none;
+    }
+}
+
+/* ====================reg2======================== */
+@media(min-width: 320px) and (max-width: 575.98px){
+    #login form #rg2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    SELECT {
+        font-size: 10px;
+        padding-right: 8px;
+        margin-bottom: 28px;
+        margin-right: 5px;
+    }
+}
+@media(min-width:576px) and (max-width:767.98px){
+    SELECT {
+        padding-right: 55px;
+    }
+}
+
+

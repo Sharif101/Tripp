@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    
+    <nav class="navbar_reg2">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./img/logo.png" alt="">
+          </a>
+        </div>
+      </nav>
+
+
+<section id="login">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <div class="img-travle">
+                    <img src="./img/login travle.jpg" alt="">
+                </div>
+            </div>
+
+            
+            <div class="col-lg-6">
+                <div class="left" id="left-reg2">
+                    <form>
+                        <h1 id="rg2">just one more <span>step</span> to go ..</h1>
+                        
+                        <input type="email" placeholder="full name">
+                        <input type="password" placeholder="password">
+
+
+                        <div class = "con">
+                            <label class="date">Date of birth </label>
+                            <div>
+                                <SELECT id ="year" name = "yyyy" onchange="change_year(this)">
+                                </SELECT>
+                                <SELECT  id ="month" name = "mm" onchange="change_month(this)">
+                                </SELECT>
+                                <SELECT id ="day" name = "dd" >
+                                </SELECT>
+                            </div>
+                        </div>
+
+
+                        
+                        
+                        <button class="sign"><span>Sign in <i class="fas fa-arrow-right"></i></span></button>
+                        <p class="acc">Already have an account? <span><a href="./login.html"> Sign in.</a></span></p>
+
+                        
+                        
+                </form>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/script.js"></script>
+</html>
